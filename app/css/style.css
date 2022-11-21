@@ -1,0 +1,810 @@
+header {
+  width: 100%;
+  background-image: url("../img/Rectangle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header nav {
+  padding: 40px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0px 40px;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+
+header .bars {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+header .bars .fa {
+  font-size: 16px;
+  color: #fff;
+}
+
+header .headerTitle {
+  width: 100%;
+  padding-top: 220px;
+  padding-bottom: 350px;
+}
+
+header .headerTitle .text {
+  text-align: center;
+}
+
+header .headerTitle .text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  margin-top: 110px;
+}
+
+main .card {
+  margin-left: 26px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+main .card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+main .card p.text {
+  margin: 0;
+}
+
+main .bot {
+  text-align: center;
+}
+
+.standart {
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 120px;
+  background: #f6f6f8;
+  padding-bottom: 70px;
+}
+
+.standart .box {
+  text-align: left;
+}
+
+.standart .box h2.title {
+  text-align: left;
+}
+
+.standart .box p.text {
+  text-align: left;
+}
+
+.standart .box a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #4985FF;
+  display: block;
+  margin-top: 30px;
+}
+
+.standart .box img {
+  width: 100%;
+}
+
+.standart img {
+  width: 100%;
+}
+
+.standart .status {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.standart .status .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.standart .status .flex svg:hover path {
+  fill: black;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.standart .status .flex h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 53px;
+  color: black;
+  margin-left: 20px;
+}
+
+.standart .status p.text {
+  margin: 0;
+}
+
+.companiya {
+  width: 100%;
+  padding-top: 70px;
+  background-image: url("../img/start.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+
+.companiya .right {
+  text-align: left;
+}
+
+.companiya .right h2.title {
+  text-align: left;
+  color: white;
+}
+
+.companiya .left {
+  text-align: right;
+}
+
+.companiya .card {
+  margin-top: 70px;
+  text-align: left;
+}
+
+.companiya .card .box {
+  text-align: left;
+}
+
+.companiya .card .box img {
+  width: 100%;
+}
+
+.companiya .card .box h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  margin-top: 30px;
+}
+
+.companiya .card .box p.text {
+  margin: 0;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.companiya .card .box a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #4985FF;
+  display: block;
+  margin-top: 30px;
+}
+
+.proekti {
+  width: 100%;
+  background: #f6f6f8;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  margin-top: 400px;
+}
+
+.proekti .owl-carousel {
+  margin-top: 70px;
+}
+
+.proekti .bot {
+  text-align: center;
+}
+
+.videoPlayer {
+  width: 100%;
+  background-image: url("../img/img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.videoPlayer h2.title {
+  color: white;
+}
+
+.videoPlayer p.text {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.videoPlayer .work {
+  position: relative;
+  text-align: center;
+}
+
+.videoPlayer .work video {
+  margin-top: 80px;
+  width: 930px;
+  height: 450px;
+}
+
+.videoPlayer .work .fa {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: #4985FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.videoPlayer .work .fa-pause {
+  display: none;
+}
+
+.bottom {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.bottom .text {
+  text-align: center;
+}
+
+.bottom .text h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+}
+
+.bottom .text p.text {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.bottom form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bottom form input {
+  border: none;
+  padding: 15px 33px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 30px 0px 0px 30px;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+
+.bottom form input::-webkit-input-placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999;
+}
+
+.bottom form input::-moz-placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999;
+}
+
+.bottom form input:-ms-input-placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999;
+}
+
+.bottom form input::-ms-input-placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999;
+}
+
+.bottom form input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999;
+}
+
+.bottom form button.BgBlue {
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  margin: 0;
+}
+
+.bottom .headerLogin {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.96);
+  z-index: 11111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.bottom .headerLogin h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #01285f;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.bottom .headerLogin form {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.bottom .headerLogin form input {
+  width: 300px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #01285f;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.bottom .headerLogin form input:focus {
+  outline: none;
+}
+
+.bottom .headerLogin form input::-webkit-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.bottom .headerLogin form input::-moz-placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.bottom .headerLogin form input:-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.bottom .headerLogin form input::-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.bottom .headerLogin form input::placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.bottom .headerLogin form .pass {
+  position: relative;
+}
+
+.bottom .headerLogin form .pass .fa {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #01285f;
+  font-size: 14px;
+}
+
+.bottom .headerLogin form button {
+  padding: 10px 30px;
+  color: white;
+  background-color: transparent;
+  outline: 2px solid #01285f;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bottom .headerLogin form button::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(1, 40, 95, 0.5);
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+  z-index: -11;
+}
+
+.bottom .headerLogin form button::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(1, 40, 95, 0.5);
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  transform: translateX(-100px);
+  z-index: -11;
+}
+
+.bottom .headerLogin form button:hover::after {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.bottom .headerLogin form button:hover::before {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.bottom .headerLogin .close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: block;
+  border: 2px solid #01285f;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.bottom .headerLogin .close:hover {
+  background-color: #01285f;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background: #f6f6f8;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+footer ul h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+footer ul svg:hover path {
+  fill: #4985FF;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+footer ul li {
+  margin: 30px 0px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #999;
+}
+
+footer ul li .fa {
+  margin-right: 15px;
+  color: #999;
+}
+
+footer ul li .fa:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+footer p.text {
+  border-top: 1px solid #888;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+span.uno {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+}
+
+button.BgBlue {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  border: none;
+  padding: 13px 36px;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+
+button.BgBlue:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+h2.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 53px;
+  color: black;
+  text-align: center;
+}
+
+p.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #999;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.activeCourses {
+  display: none;
+}
+
+.errorMsg {
+  color: #ff0000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.activeBars {
+  display: none;
+}
+
+.activeMenuBars {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  header nav ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header nav ul li {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  header .headerTitle .text h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .companiya .right h2.title {
+    text-align: center;
+  }
+
+  .companiya .left {
+    text-align: center;
+  }
+
+  .companiya .card {
+    display: none;
+  }
+
+  .proekti {
+    display: none;
+  }
+
+  .videoPlayer .work video {
+    max-width: 70%;
+  }
+
+  .bottom .headerLogin h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+
+  h2.title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  p.text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .activeBars {
+    display: block;
+  }
+
+  .activeMenuBars {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .standart .status .flex {
+    margin: 30px 0px;
+  }
+
+  .standart .status p.text {
+    text-align: center;
+  }
+
+  .videoPlayer .work .fa {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .bottom .headerLogin h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}

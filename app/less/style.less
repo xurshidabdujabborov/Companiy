@@ -1,0 +1,85 @@
+@import "./params/mix";
+@import "./header.less";
+@import "./main.less";
+@import "./standart.less";
+@import "./companiya.less";
+@import "./proekti.less";
+@import "./videoPlayer.less";
+@import "./bottom.less";
+@import "./footer.less";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+span.uno {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+}
+
+button.BgBlue {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  border: none;
+  padding: 13px 36px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  &:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+  }
+}
+
+h2.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 53px;
+  color: black;
+  text-align: center;
+  .md-block({
+    font-size: 25px;
+    line-height: 35px;
+  })
+}
+
+p.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #999;
+  margin-top: 50px;
+  text-align: center;
+  .md-block({
+    font-size: 12px;
+    line-height: 20px;
+  })
+}
+.activeCourses {
+  display: none;
+}
+.errorMsg {
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+.activeBars {
+  display: none;
+  .md(display , block);
+}
+
+.activeMenuBars {
+  display: block;
+  .md(display , none);
+}
